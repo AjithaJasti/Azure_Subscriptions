@@ -1,0 +1,68 @@
+.Header {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 90.51%;
+  width: 1728px;
+  height: 106px;
+  background: #000000;
+  border-radius: 0px;
+}
+
+.Header > h1 {
+  position: absolute;
+  left: 69.39%;
+  right: 5.15%;
+  top: 30%;
+  /* bottom: 80%; */
+
+  font-family: "Trirong";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 62px;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+.Header > .image_link > img {
+  position: absolute;
+  left: 4.92%;
+  right: 84.38%;
+  height: 89px;
+  width: 185px;
+  left: 85px;
+  top: 17px;
+  border-radius: 0px;
+}
+.Links > button {
+  position: absolute;
+  left: 32.35%;
+  right: 33.97%;
+  background-color: #3b6e8b;
+  border-radius: 65px;
+
+  height: 90px;
+  width: 582px;
+  font-family: "Varela";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 0px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+.createbutton {
+  top: 32%;
+  bottom: 59.52%;
+}
+.viewbutton {
+  top: 49%;
+  bottom: 45.78%;
+}
+
+.deletebutton {
+  top: 66%;
+  bottom: 32.05%;
+}

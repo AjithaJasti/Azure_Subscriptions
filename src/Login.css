@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  background-color: white;
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+}
+
+section {
+  position: absolute;
+  left: 27%;
+  right: 20.89%;
+  top: 30;
+  bottom: 15%;
+  width: 100%;
+  max-width: 45%;
+  min-height: 400px;
+  /* display: flex;
+
+  flex-direction: column;
+  justify-content: flex-start; */
+  padding: 3rem;
+  background: #2e5368;
+  border-radius: 62px;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+.loginform > input[type="text"],
+.loginform > input[type="password"],
+.loginform > button,
+.loginform > textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.loginform > label,
+.loginform > button {
+  margin-top: 1.5rem;
+}
+
+.loginform > button {
+  position: relative;
+  padding: 0.5 rem;
+  width: 150px;
+  height: 50px;
+  left: 35%;
+}
+
+.line {
+  display: inline-block;
+}
